@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+        .category-item {
+            display: inline-block;
+            margin: 125px; /* Adjust the margin as needed */
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories</title>
+    <link rel="stylesheet" href="category.css">
+    <style type="text/css">
+    </style>
+    <!-- Add your stylesheets and other meta tags as needed -->
+</head>
+<body style="background-image: url('./monitor.jpg')";></body>
+<body>
+
+    <header>
+        <h1 class="EBuy">EBuy</h1>
+        <nav class="navigation">
+            <a href="../index.html">Home</a>
+            <a href="../category/category.html">Categories</a>
+            <a href="../about/about.html">About</a>
+            <a href="../contact/contact.html">Contact</a>
+            <a></a>
+            <input type="text" id="searchInput" placeholder="Search...">
+            <button onclick="search()">Search</button>
+        </nav>
+    </header>
+<nav>
+    <ul id="categories">
+        <li onclick="filterProducts('All')">All</li>
+        <li onclick="filterProducts('Headphones')">Headphones</li>
+        <li onclick="filterProducts('BluetoothSpeakers')">Bluetooth Speakers</li>
+        <li onclick="filterProducts('Earbuds')">Earbuds</li>
+        <li onclick="filterProducts('SmartWatches')">Smart Watches</li>
+    </ul>
+</nav>
+
+<main>
+    <section class="category-section">
+        <h2>Categories</h2>
+        <!-- Image of Headphone for the Electronics category -->
+        <div class="category-item">
+            <link rel="stylesheet" href="category.css">
+            <figure class="swing">
+            <img src="cat-1.jpg" alt="Headphones" width="250" height="250">
+            </figure>
+            <h3>Headphones</h3>
+            <a href="../Headphones/headphones.html">See More</a>
+        </div>
+
+        <!-- Image of Bluetooth Speakers for the Electronics category-->
+        <div class="category-item">
+            <link rel="stylesheet" href="category.css">
+            <figure class="swing">
+            <img src="cat-2.jpg" alt="Bluetooth Speakers" width="250" height="250">
+            </figure>
+            <h3>Bluetooth Speakers</h3>
+            <a href="../Bluetooth speakers/Bluetooth speakers.html">See More</a>
+        </div>
+
+        <!-- Image of Earbuds for the Electronics category -->
+        <div class="category-item">
+            <link rel="stylesheet" href="category.css">
+            <figure class="swing">
+            <img src="cat-3.jpg" alt="Earbuds" width="250" height="250">
+            </figure>
+            <h3>Earbuds</h3>
+            <a href="../Earbuds/Earbuds.html">See More</a>
+        </div>
+
+        <!-- Image of Smart Watches for the Electronics category -->
+        <div class="category-item">
+            <link rel="stylesheet" href="category.css">
+            <figure class="swing">
+            <img src="cat-4.jpg" alt="Smart Watches" width="250" height="250">
+            </figure>
+            <h3>Smart Watches</h3>
+            <a href="../Smart Watches/Smart Watches.html">See More</a>
+        </div>
+
+        <!-- Add other category information and products as needed -->
+    </section>
+    <footer>
+        <p>&copy; 2024 EBuy. All rights reserved.</p>
+      </footer>
+    <script src="category.js"></script>
+</main>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+        .category-item {
+            display: inline-block;
+            margin: 125px; /* Adjust the margin as needed */
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories</title>
+    <link rel="stylesheet" href="Smart Watches.css">
+    <!-- Add your stylesheets and other meta tags as needed -->
+</head>
+<body style="background-image: url('./monitor.jpg')";></body>
+<body>
+<header>
+    <h1>EBuy</h1>
+        <nav class="navigation">
+            <a href="../category.html">
+    <!-- Add your header content here -->
+</header>
+<nav>
+    <ul id="categories">
+        <li onclick="filterProducts('All')">All</li>
+        <li onclick="filterProducts('Headphones')">Headphones</li>
+        <li onclick="filterProducts('BluetoothSpeakers')">Bluetooth Speakers</li>
+        <li onclick="filterProducts('Earbuds')">Earbuds</li>
+        <li onclick="filterProducts('SmartWatches')">Smart Watches</li>
+    </ul>
+</nav>
+
+<main>
+    <section class="category-section">
+        <h2>Categories</h2>
+        <!-- Image of Smart Watche for the Electronics category -->
+        <div class="category-item">
+            <link rel="stylesheet" href="Smart Watches.css">
+            <figure class="swing">
+            <img src="watch-prod-1.webp" alt="Smart Watche" width="300" height="300">
+            </figure>
+            <h3>Wave Neo</h3>
+            <p>1.69" (4.29cm) HD Display, Upto 7 Days Battery Life, IP68 Sweat & Water Resistant, 100+ Watch Faces</p>
+            <p>Regular price: ₹ 5,990.00 78% Off</P>
+            <P>Sale price: ₹1,299</p>
+            <button onclick="addToCart(1)">Add to Cart </button>
+        </div>
+
+        <!-- Image of Smart Watche for the Electronics category -->
+        <div class="category-item">
+            <link rel="stylesheet" href="Smart Watches.css">
+            <figure class="swing">
+            <img src="watch-prod-2.webp" alt="Smart Watche" width="300" height="300">
+            </figure>
+            <h3>Boat Iris</h3>
+            <p>Round Dial Smart Watch with 1.39" AMOLED Display, Multiple Watch Faces</p>
+            <p>Regular price: ₹ 11,990.00 63% Off</P>
+            <P>Sale price: ₹4,499</p>
+            <button onclick="addToCart(1)">Add to Cart </button>
+        </div>
+
+        <!-- Image of Smart Watche for the Electronics category -->
+        <div class="category-item">
+            <link rel="stylesheet" href="Smart Watches.css">
+            <figure class="swing">
+            <img src="watch-prod-3.webp" alt="Smart Watche" width="300" height="300">
+            </figure>
+            <h3>Boat Vertex</h3>
+            <p>Smartwatch with Fitness Trackers, 1.69" HD Display, Sleep Tracking, 100+ Watch Faces</p>
+            <p>Regular price: ₹ 6,990.00 64% Off</P>
+            <P>Sale price: ₹2,499</p>
+            <button onclick="addToCart(1)">Add to Cart </button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 EBuy. All rights reserved.</p>
+      </footer>
+    <script src="Smart Watches.js"></script>
+</main>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+        .category-item {
+            display: inline-block;
+            margin: 125px; /* Adjust the margin as needed */
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories</title>
+    <link rel="stylesheet" href="headphones.css">
+    <!-- Add your stylesheets and other meta tags as needed -->
+</head>
+<body style="background-image: url('./monitor.jpg')";></body>
+<body>
+<header>
+    <h1>EBuy</h1>
+        <nav class="navigation">
+            <a href="../category.html">
+    <!-- Add your header content here -->
+</header>
+<nav>
+    <ul id="categories">
+        <li onclick="filterProducts('All')">All</li>
+        <li onclick="filterProducts('Headphones')">Headphones</li>
+        <li onclick="filterProducts('BluetoothSpeakers')">Bluetooth Speakers</li>
+        <li onclick="filterProducts('Earbuds')">Earbuds</li>
+        <li onclick="filterProducts('SmartWatches')">Smart Watches</li>
+    </ul>
+</nav>
+
+<main>
+    <section class="category-section">
+        <h2>Headphones</h2>
+        <!-- Image of Headphone for the Electronics category -->
+        <div class="category-item">
+            <link rel="stylesheet" href="headphones.css">
+            <figure class="swing">
+            <img src="headphone-prod-1.webp" alt="Headphone" width="300" height="300">
+            </figure>
+            <h3>Rockerz 450 Wonder Woman DC Edition</h3>
+            <p>Wireless Bluetooth Headphone with 40mm Dynamic Drivers, Upto 15 Hours Playback, Adaptive Headband</p>
+            <p>Regular price: ₹ 3,990.00 55% Off</p>
+            <p>Sale price: ₹1,799</p>
+
+            <button onclick="addToCart(1)">Add to Cart </button>
+        </div>
+
+        <!-- Image of Bluetooth Speakers for the Electronics category -->
+        <div class="category-item">
+            <link rel="stylesheet" href="headphones.css">
+            <figure class="swing">
+            <img src="headphone-prod-2.webp" alt="Headphone" width="300" height="300">
+            </figure>
+            <h3>Rockerz 550 FM</h3>
+            <p>Wireless Headphone with 50mm dynamic drivers, Bluetooth v5.0, 500mAh battery, 20H Playback</p>
+            <p>Sale price: ₹3,999.00</p>
+            <button onclick="addToCart(1)">Add to Cart </button>
+        </div>
+
+        <!-- Image of Earbuds for the Electronics category -->
+        <div class="category-item">
+            <link rel="stylesheet" href="headphones.css">
+            <figure class="swing">
+            <img src="headphone-prod-3.webp" alt="Headphone" width="300" height="300">
+            </figure>
+            <h3>Rockerz 510e</h3>
+            <p>Bluetooth Headphone with super extra bass, Upto 20 Hours Playback, 50mm Dynamic Driver, 400 mah Battery</p>
+            <p>Regular price: ₹3,990.00 60% Off</p>
+            <p>Sale price: ₹1,599</p>
+            <button onclick="addToCart(1)">Add to Cart </button>
+        </div>
+
+        <!-- Image of Smart Watches for the Electronics category -->
+        <div class="category-item">
+            <link rel="stylesheet" href="headphones.css">
+            <figure class="swing">
+            <img src="headphone-prod-4.webp" alt="Headphone" width="300" height="300">
+            </figure>
+            <h3>Rockerz 400</h3>
+            <p>Wireless Bluetooth Headphone with 40mm Dyanmic Drivers, 8 Hours Non-Stop Playback, Lightweight & Portable</p>
+            <p>Regular price: ₹ 2,990.00 53% Off</p>
+            <p> Sale price: ₹1,399</p>
+            <button onclick="addToCart(1)">Add to Cart </button>
+        </div>
+
+        <!-- Add other category information and products as needed -->
+        <div class="category-item">
+            <link rel="stylesheet" href="headphones.css">
+            <figure class="swing">
+            <img src="headphone-prod-5.webp" alt="Headphone" width="300" height="300">
+            </figure>
+            <h3>Rockerz 550</h3>
+            <p>Over Ear Bluetooth Headphones with Upto 20H Playback, 50mm Dynamic Driver, 500mAh Battery</p>
+            <p>Regular price: ₹4,999.00 60% Off</p>
+            <p>Sale price: ₹1,999.00</p>
+            <button onclick="addToCart(1)">Add to Cart </button>
+        </div>
+
+        <!-- Add other category information and products as needed -->
+        <div class="category-item">
+            <link rel="stylesheet" href="headphones.css">
+            <figure class="swing">
+            <img src="headphone-prod-6.webp" alt="Headphone" width="300" height="300">
+            </figure>
+            <h3>Rockerz 450 Superman DC Edition</h3>
+            <p>Wireless Bluetooth Headphone with 40mm Dynamic Drivers, Upto 15 Hours Playback, Adaptive Headband</p>
+            <p>Regular price: ₹ 3,990.00 55% Off</p>
+            <p>Sale price: ₹1,799</p>
+            <button onclick="addToCart(1)">Add to Cart </button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 EBuy. All rights reserved.</p>
+      </footer>
+    <script src="category.js"></script>
+</main>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBuy - Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgba(1, 7, 4, 0.283);
+        }
+
+        header {
+            background-color: #333;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .navigation a {
+            left: 500px;
+            position: center;
+            font-size: 1.4em;
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 40px;
+        }
+
+        
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #dea07ee3;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+           
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            background-color:rgb(57, 55, 55);
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body style="background-image: url('./monitor.jpg')";></body>
+<body>
+    <header>
+        <h1>EBuy</h1>
+        <nav class="navigation">
+            <a href="../index.html">Home</a>
+            <a href="../category/category.html">Categories</a>
+            <a href="../about/about.html">About</a>
+            <a href="../contact/contact.html">Contact</a>
+        </nav>
+
+    </header>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>Have questions or concerns? Feel free to contact us using the form below:</p>
+             <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <p>Email: e-buy@gmail.com.com Phone: +91 9519643297</p>
+        <p>&copy; 2024 EBuy. All rights reserved.</p>
+      </footer>
+    <script>
+        function submitForm() {
+            // You can add JavaScript functionality here to handle form submission
+            // For example, you might want to validate the form data and send it to a server using AJAX.
+            alert('Form submitted!'); // Replace this with your desired functionality.
+        }
+    </script>
+</body>
+</html>

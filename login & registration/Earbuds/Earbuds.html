@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+        .category-item {
+            display: inline-block;
+            margin: 125px; /* Adjust the margin as needed */
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories</title>
+    <link rel="stylesheet" href="Earbuds.css">
+    <!-- Add your stylesheets and other meta tags as needed -->
+</head>
+<body style="background-image: url('./monitor.jpg')";></body>
+<body>
+<header>
+    <h1>EBuy</h1>
+        <nav class="navigation">
+            <a href="../category.html">
+    <!-- Add your header content here -->
+</header>
+<nav>
+    <ul id="categories">
+        <li onclick="filterProducts('All')">All</li>
+        <li onclick="filterProducts('Headphones')">Headphones</li>
+        <li onclick="filterProducts('BluetoothSpeakers')">Bluetooth Speakers</li>
+        <li onclick="filterProducts('Earbuds')">Earbuds</li>
+        <li onclick="filterProducts('SmartWatches')">Smart Watches</li>
+    </ul>
+</nav>
+
+<main>
+    <section class="category-section">
+        <h2>Categories</h2>
+        <!-- Image of Earbuds for the Electronics category -->
+        <div class="category-item">
+            <link rel="stylesheet" href="Earbuds.css">
+            <figure class="swing">
+            <img src="earbuds-prod-1.webp" alt="Earbuds" width="300" height="300">
+            </figure>
+            <h3>Airdopes 148</h3>
+            <p>Wireless Earbuds with 8mm Drivers, IWP & ENxTM Technology, ASAP Fast Charge, Upto 42 hours Playback, IPX4 Sweat & Water Resistance</p>
+            <p>Regular price: ₹ 4,490.00 67% Off</P>
+            <P>Sale price: ₹1,499</p>
+            <button onclick="addToCart(1)">Add to Cart </button>
+        </div>
+
+        <!-- Image of Earbuds for the Electronics category -->
+        <div class="category-item">
+            <link rel="stylesheet" href="Earbuds.css">
+            <figure class="swing">
+            <img src="earbuds-prod-2.webp" alt="Earbuds" width="300" height="300">
+            </figure>
+            <h3>Airdopes 131 DC Edition</h3>
+            <p>Airdopes 131 DC Edition 13 mm Drivers, Type-C Carry Case, 12 hours Nonstop Music</p>
+            <p>Regular price: ₹ 2,990.00 57% Off</P>
+            <P>Sale price: ₹1,299</p>
+            <button onclick="addToCart(1)">Add to Cart </button>
+        </div>
+
+        <!-- Image of Earbuds for the Electronics category -->
+        <div class="category-item">
+            <link rel="stylesheet" href="Earbuds.css">
+            <figure class="swing">
+            <img src="earbuds-prod-3.webp" alt="Earbuds" width="300" height="300">
+            </figure>
+            <h3>Airdopes 141 Pro</h3>
+            <p>12mm Drivers, Upto 45 Hours Playback, Quad Mics with ENx™️ Technology</p>
+            <p>Regular price: ₹ 2,990.00 47% Off</P>
+            <P>Sale price: ₹1,599</p>
+            <button onclick="addToCart(1)">Add to Cart </button>
+        </div>
+
+        <!-- Image of Earbuds for the Electronics category -->
+        <div class="category-item">
+            <link rel="stylesheet" href="Earbuds.css">
+            <figure class="swing">
+            <img src="earbuds-prod-4.webp" alt="Earbuds" width="300" height="300">
+            </figure>
+            <h3>Airdopes 441</h3>
+            <p>Wireless Earbuds with 6mm Driver, Nonstop Music Upto 20 Hours, IPX7 Water & Sweat Resistance</p>
+            <p>Regular price: ₹ 5,990.00 58% Off</P>
+            <P>Sale price: ₹2,499</p>
+            <button onclick="addToCart(1)">Add to Cart </button>
+        </div>
+
+        <!-- Add other category information and products as needed -->
+        <div class="category-item">
+            <link rel="stylesheet" href="Earbuds.css">
+            <figure class="swing">
+            <img src="earbuds-prod-5.webp" alt="Earbuds" width="300" height="300">
+            </figure>
+            <h3>Airdopes 131</h3>
+            <p>Wireless Earbuds with upto 60 Hours Playback, 13mm Drivers, IWP Technology, 650mAh Charging Case</p>
+            <p>Regular price: ₹ 2,990.00 70% Off</P>
+            <P>Sale price: ₹899</p>
+            <button onclick="addToCart(1)">Add to Cart </button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 EBuy. All rights reserved.</p>
+      </footer>
+    <script src="Earbuds.js"></script>
+</main>
+</body>
+</html>
