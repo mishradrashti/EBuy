@@ -2,6 +2,7 @@
 EBuy is an electronic e-commerce application featuring secure user authentication, product browsing, and responsive UI. Developed a dynamic shopping cart and checkout system with real-time updates, order management, and integration of a secure payment gateway.
 
 What is EBuy?
+
 In an era dominated by digital innovation, shopping has evolved beyond the confines of physical stores. EBuy, our cutting-edge e-commerce application, redefines the retail landscape, bringing an unparalleled shopping experience to your fingertips. EBuy boasts a clean and intuitive interface designed to provide users with a hassle-free shopping experience. Effortlessly navigate through a vast array of products with just a few taps.EBuy is not just an app; it's a lifestyle upgrade. Embrace a new era of shopping that prioritizes convenience, security, and personalization. Join us on this journey to redefine retail, one tap at a time. Experience the future of shopping with EBuy, where your satisfaction is our top priority.
 
 Objectives:
